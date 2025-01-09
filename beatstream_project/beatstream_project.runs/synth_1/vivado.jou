@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jan  9 07:04:57 2025
+# Process ID: 16256
+# Current directory: C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.runs/synth_1
+# Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
+# Log file: C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.runs/synth_1/top_module.vds
+# Journal file: C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_module.tcl -notrace

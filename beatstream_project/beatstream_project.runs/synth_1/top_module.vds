@@ -1,0 +1,2247 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jan  9 07:04:57 2025
+# Process ID: 16256
+# Current directory: C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.runs/synth_1
+# Command line: vivado.exe -log top_module.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_module.tcl
+# Log file: C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.runs/synth_1/top_module.vds
+# Journal file: C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_module.tcl -notrace
+Command: synth_design -top top_module -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1152 
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:217]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:218]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:219]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:220]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:221]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:222]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:223]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:224]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:225]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:280]
+WARNING: [Synth 8-2507] parameter declaration becomes local in music_play with formal parameter declaration list [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:281]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 371.836 ; gain = 115.523
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_module' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:23]
+	Parameter N_1_1 bound to: 31 - type: integer 
+	Parameter N_1_2 bound to: 0 - type: integer 
+	Parameter N_1 bound to: 31 - type: integer 
+	Parameter N_2_1 bound to: 31 - type: integer 
+	Parameter N_2_2 bound to: 0 - type: integer 
+	Parameter N_2_3 bound to: 0 - type: integer 
+	Parameter N_2 bound to: 31 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'key_status' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/key_status.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PS2Receiver' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/PS2Receiver.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debouncer.v:23]
+	Parameter COUNT_MAX bound to: 19 - type: integer 
+	Parameter COUNT_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (1#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/PS2Receiver.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'PS2Receiver' (2#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/PS2Receiver.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000010101 
+	Parameter breakcode bound to: 24'b000000001111000000010101 
+INFO: [Synth 8-6155] done synthesizing module 'keypress' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized0' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000011101 
+	Parameter breakcode bound to: 24'b000000001111000000011101 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized0' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized1' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000100100 
+	Parameter breakcode bound to: 24'b000000001111000000100100 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized1' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized2' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000101101 
+	Parameter breakcode bound to: 24'b000000001111000000101101 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized2' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized3' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000101100 
+	Parameter breakcode bound to: 24'b000000001111000000101100 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized3' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized4' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000110101 
+	Parameter breakcode bound to: 24'b000000001111000000110101 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized4' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized5' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000111100 
+	Parameter breakcode bound to: 24'b000000001111000000111100 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized5' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized6' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001000011 
+	Parameter breakcode bound to: 24'b000000001111000001000011 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized6' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized7' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001000100 
+	Parameter breakcode bound to: 24'b000000001111000001000100 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized7' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized8' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001001101 
+	Parameter breakcode bound to: 24'b000000001111000001001101 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized8' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized9' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000011100 
+	Parameter breakcode bound to: 24'b000000001111000000011100 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized9' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized10' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000011011 
+	Parameter breakcode bound to: 24'b000000001111000000011011 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized10' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized11' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000100011 
+	Parameter breakcode bound to: 24'b000000001111000000100011 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized11' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized12' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000101011 
+	Parameter breakcode bound to: 24'b000000001111000000101011 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized12' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized13' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000110100 
+	Parameter breakcode bound to: 24'b000000001111000000110100 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized13' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized14' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000110011 
+	Parameter breakcode bound to: 24'b000000001111000000110011 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized14' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized15' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000111011 
+	Parameter breakcode bound to: 24'b000000001111000000111011 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized15' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized16' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001000010 
+	Parameter breakcode bound to: 24'b000000001111000001000010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized16' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized17' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001001011 
+	Parameter breakcode bound to: 24'b000000001111000001001011 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized17' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized18' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000011010 
+	Parameter breakcode bound to: 24'b000000001111000000011010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized18' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized19' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000100010 
+	Parameter breakcode bound to: 24'b000000001111000000100010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized19' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized20' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000100001 
+	Parameter breakcode bound to: 24'b000000001111000000100001 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized20' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized21' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000101010 
+	Parameter breakcode bound to: 24'b000000001111000000101010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized21' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized22' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000110010 
+	Parameter breakcode bound to: 24'b000000001111000000110010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized22' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized23' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000110001 
+	Parameter breakcode bound to: 24'b000000001111000000110001 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized23' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized24' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000111010 
+	Parameter breakcode bound to: 24'b000000001111000000111010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized24' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized25' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001110101 
+	Parameter breakcode bound to: 24'b000000001111000001110101 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized25' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized26' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001110010 
+	Parameter breakcode bound to: 24'b000000001111000001110010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized26' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized27' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001101011 
+	Parameter breakcode bound to: 24'b000000001111000001101011 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized27' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized28' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000001110000001110100 
+	Parameter breakcode bound to: 24'b111000001111000001110100 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized28' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized29' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000001011010 
+	Parameter breakcode bound to: 24'b000000001111000001011010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized29' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized30' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000010010 
+	Parameter breakcode bound to: 24'b000000001111000000010010 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized30' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6157] synthesizing module 'keypress__parameterized31' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+	Parameter makecode bound to: 24'b000000000000000000101001 
+	Parameter breakcode bound to: 24'b000000001111000000101001 
+INFO: [Synth 8-6155] done synthesizing module 'keypress__parameterized31' (3#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'key_status' (4#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/key_status.v:23]
+INFO: [Synth 8-6157] synthesizing module 'short_press' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/short_press.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'short_press' (5#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/short_press.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/clock_divider.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (6#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/clock_divider.v:24]
+INFO: [Synth 8-6157] synthesizing module 'play_timer' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/play_timer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'play_timer' (7#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/play_timer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'note_grader' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/note_grader.v:23]
+	Parameter N bound to: 31 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'decomposer' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/decomposer.v:23]
+	Parameter N bound to: 31 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'decomposer' (8#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/decomposer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'note_grader' (9#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/note_grader.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'end_time' does not match port width (14) of module 'note_grader' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:281]
+WARNING: [Synth 8-689] width (14) of port connection 'play_counter' does not match port width (32) of module 'note_grader' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:281]
+WARNING: [Synth 8-689] width (32) of port connection 'end_time' does not match port width (14) of module 'note_grader' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:289]
+WARNING: [Synth 8-689] width (14) of port connection 'play_counter' does not match port width (32) of module 'note_grader' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:289]
+INFO: [Synth 8-6157] synthesizing module 'elongate' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/elongate.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'elongate' (10#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/elongate.v:23]
+INFO: [Synth 8-6157] synthesizing module 'startup_screen' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/startup_screen.v:14]
+INFO: [Synth 8-6157] synthesizing module 'flexible_clock' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/flexible_clock.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'flexible_clock' (11#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/flexible_clock.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Oled_Display' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Oled_Display.v:36]
+	Parameter Width bound to: 96 - type: integer 
+	Parameter Height bound to: 64 - type: integer 
+	Parameter PixelCount bound to: 6144 - type: integer 
+	Parameter PixelCountWidth bound to: 13 - type: integer 
+	Parameter ClkFreq bound to: 6250000 - type: integer 
+	Parameter FrameFreq bound to: 60 - type: integer 
+	Parameter FrameDiv bound to: 104166 - type: integer 
+	Parameter FrameDivWidth bound to: 17 - type: integer 
+	Parameter PowerDelay bound to: 20 - type: integer 
+	Parameter ResetDelay bound to: 3 - type: integer 
+	Parameter VccEnDelay bound to: 20 - type: integer 
+	Parameter StartupCompleteDelay bound to: 100 - type: integer 
+	Parameter MaxDelay bound to: 100 - type: integer 
+	Parameter MaxDelayCount bound to: 625000 - type: integer 
+	Parameter StateCount bound to: 32 - type: integer 
+	Parameter StateWidth bound to: 5 - type: integer 
+	Parameter PowerUp bound to: 5'b00000 
+	Parameter Reset bound to: 5'b00001 
+	Parameter ReleaseReset bound to: 5'b00011 
+	Parameter EnableDriver bound to: 5'b00010 
+	Parameter DisplayOff bound to: 5'b00110 
+	Parameter SetRemapDisplayFormat bound to: 5'b00111 
+	Parameter SetStartLine bound to: 5'b00101 
+	Parameter SetOffset bound to: 5'b00100 
+	Parameter SetNormalDisplay bound to: 5'b01100 
+	Parameter SetMultiplexRatio bound to: 5'b01101 
+	Parameter SetMasterConfiguration bound to: 5'b01111 
+	Parameter DisablePowerSave bound to: 5'b01110 
+	Parameter SetPhaseAdjust bound to: 5'b01010 
+	Parameter SetDisplayClock bound to: 5'b01011 
+	Parameter SetSecondPrechargeA bound to: 5'b01001 
+	Parameter SetSecondPrechargeB bound to: 5'b01000 
+	Parameter SetSecondPrechargeC bound to: 5'b11000 
+	Parameter SetPrechargeLevel bound to: 5'b11001 
+	Parameter SetVCOMH bound to: 5'b11011 
+	Parameter SetMasterCurrent bound to: 5'b11010 
+	Parameter SetContrastA bound to: 5'b11110 
+	Parameter SetContrastB bound to: 5'b11111 
+	Parameter SetContrastC bound to: 5'b11101 
+	Parameter DisableScrolling bound to: 5'b11100 
+	Parameter ClearScreen bound to: 5'b10100 
+	Parameter VccEn bound to: 5'b10101 
+	Parameter DisplayOn bound to: 5'b10111 
+	Parameter PrepareNextFrame bound to: 5'b10110 
+	Parameter SetColAddress bound to: 5'b10010 
+	Parameter SetRowAddress bound to: 5'b10011 
+	Parameter WaitNextFrame bound to: 5'b10001 
+	Parameter SendPixel bound to: 5'b10000 
+	Parameter SpiCommandMaxWidth bound to: 40 - type: integer 
+	Parameter SpiCommandBitCountWidth bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Oled_Display.v:123]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Oled_Display.v:198]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Oled_Display.v:346]
+INFO: [Synth 8-6155] done synthesizing module 'Oled_Display' (12#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Oled_Display.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'startup_screen' (13#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/startup_screen.v:14]
+INFO: [Synth 8-6157] synthesizing module 'map2' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'char' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:23]
+WARNING: [Synth 8-151] case item 8'b01000100 is unreachable [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:30]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:32]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:45]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:58]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:71]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:84]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:97]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:110]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:123]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:137]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:150]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:163]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:189]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:202]
+INFO: [Synth 8-226] default block is never used [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:215]
+INFO: [Synth 8-6155] done synthesizing module 'char' (14#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v:23]
+WARNING: [Synth 8-6090] variable 'oled_colour' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:377]
+WARNING: [Synth 8-6090] variable 'oled_colour' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:396]
+WARNING: [Synth 8-6090] variable 'oled_colour' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:416]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[34] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[35] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[36] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[37] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[38] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[39] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[40] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[41] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[42] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[43] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[44] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[45] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[46] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[47] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[48] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[49] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[50] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[51] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[52] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[53] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[54] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[55] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[56] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[57] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[58] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[59] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[60] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[61] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[62] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[63] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[64] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[65] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[66] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[67] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[68] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[69] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[70] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[71] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[72] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[73] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[74] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[75] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[76] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[77] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[78] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_missing_reg[13] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:193]
+WARNING: [Synth 8-6014] Unused sequential element y_missing_reg[14] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:193]
+WARNING: [Synth 8-6014] Unused sequential element y_missing_reg[23] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:193]
+INFO: [Synth 8-6155] done synthesizing module 'map2' (15#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'survival_bar' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/survival_bar.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'survival_bar' (16#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/survival_bar.v:44]
+INFO: [Synth 8-6157] synthesizing module 'menu_screen' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/menu_screen.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'menu_screen' (17#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/menu_screen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'difficulty_menu' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/difficulty_menu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'difficulty_menu' (18#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/difficulty_menu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Point_system_display' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Point_system_display.v:24]
+WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Point_system_display.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'Point_system_display' (19#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Point_system_display.v:24]
+INFO: [Synth 8-6157] synthesizing module 'end_screen' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/end_screen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'end_screen' (20#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/end_screen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'pause' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/pause.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pause' (21#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/pause.v:1]
+INFO: [Synth 8-6157] synthesizing module 'map1' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:1]
+WARNING: [Synth 8-6090] variable 'oled_colour' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:378]
+WARNING: [Synth 8-6090] variable 'oled_colour' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:397]
+WARNING: [Synth 8-6090] variable 'oled_colour' is written by both blocking and non-blocking assignments, entire logic could be removed [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:417]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[34] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[35] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[36] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[37] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[38] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[39] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[40] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[41] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[42] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[43] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[44] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[45] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[46] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[47] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[48] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[49] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[50] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[51] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[52] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[53] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[54] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[55] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[56] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[57] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[58] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[59] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[60] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[61] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[62] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[63] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[64] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[65] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[66] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[67] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[68] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[69] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[70] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[71] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[72] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[73] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[74] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[75] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[76] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[77] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_var_reg[78] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:166]
+WARNING: [Synth 8-6014] Unused sequential element y_missing_reg[13] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:193]
+WARNING: [Synth 8-6014] Unused sequential element y_missing_reg[14] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:193]
+WARNING: [Synth 8-6014] Unused sequential element y_missing_reg[23] was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:193]
+INFO: [Synth 8-6155] done synthesizing module 'map1' (22#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'loading_screen' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/loading_screen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'loading_screen' (23#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/loading_screen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'display_letters_to_screen' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:23]
+	Parameter WHITE bound to: 16'b1111111111111111 
+	Parameter BLACK bound to: 16'b0000000000000000 
+	Parameter RED bound to: 16'b1111100000000000 
+	Parameter GREEN bound to: 16'b0000011111100000 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:688]
+WARNING: [Synth 8-3848] Net display_pos1 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:175]
+WARNING: [Synth 8-3848] Net display_pos2 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:176]
+WARNING: [Synth 8-3848] Net display_pos3 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:177]
+WARNING: [Synth 8-3848] Net display_pos4 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:178]
+WARNING: [Synth 8-3848] Net display_pos5 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:179]
+WARNING: [Synth 8-3848] Net display_pos6 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:180]
+WARNING: [Synth 8-3848] Net display_pos7 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:181]
+WARNING: [Synth 8-3848] Net display_pos8 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:182]
+WARNING: [Synth 8-3848] Net display_pos9 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:183]
+WARNING: [Synth 8-3848] Net display_pos10 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:184]
+WARNING: [Synth 8-3848] Net colour in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:37]
+WARNING: [Synth 8-3848] Net display_pos11 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:186]
+WARNING: [Synth 8-3848] Net display_pos12 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:187]
+WARNING: [Synth 8-3848] Net display_pos13 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:188]
+WARNING: [Synth 8-3848] Net display_pos14 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:189]
+WARNING: [Synth 8-3848] Net display_pos15 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:190]
+WARNING: [Synth 8-3848] Net display_pos16 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:191]
+WARNING: [Synth 8-3848] Net display_pos17 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:192]
+WARNING: [Synth 8-3848] Net display_pos18 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:193]
+WARNING: [Synth 8-3848] Net display_pos19 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:194]
+WARNING: [Synth 8-3848] Net display_pos20 in module/entity display_letters_to_screen does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:195]
+INFO: [Synth 8-6155] done synthesizing module 'display_letters_to_screen' (24#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'screen_selector' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/screen_selector.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/screen_selector.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'screen_selector' (25#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/screen_selector.v:23]
+INFO: [Synth 8-6157] synthesizing module 'music_play' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:189]
+	Parameter M bound to: 49999 - type: integer 
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+	Parameter NOTE_C4 bound to: 261 - type: integer 
+	Parameter NOTE_D4 bound to: 293 - type: integer 
+	Parameter NOTE_E4 bound to: 329 - type: integer 
+	Parameter NOTE_F4 bound to: 349 - type: integer 
+	Parameter NOTE_G4 bound to: 392 - type: integer 
+	Parameter NOTE_A4 bound to: 440 - type: integer 
+	Parameter NOTE_B4 bound to: 493 - type: integer 
+	Parameter NOTE_C5 bound to: 523 - type: integer 
+	Parameter NOTE_DURATION bound to: 500 - type: integer 
+	Parameter one_min bound to: 60000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'single_note' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/single_note.v:23]
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'single_note' (26#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/single_note.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debounce' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debounce.v:23]
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter DEBOUNCE bound to: 1 - type: integer 
+	Parameter WAIT_RELEASE bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debounce.v:36]
+INFO: [Synth 8-6155] done synthesizing module 'debounce' (27#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debounce.v:23]
+WARNING: [Synth 8-6014] Unused sequential element pcount_reg was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:206]
+INFO: [Synth 8-6155] done synthesizing module 'music_play' (28#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:189]
+INFO: [Synth 8-6157] synthesizing module 'music_play__parameterized0' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:189]
+	Parameter M bound to: 16666 - type: integer 
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+	Parameter NOTE_C4 bound to: 261 - type: integer 
+	Parameter NOTE_D4 bound to: 293 - type: integer 
+	Parameter NOTE_E4 bound to: 329 - type: integer 
+	Parameter NOTE_F4 bound to: 349 - type: integer 
+	Parameter NOTE_G4 bound to: 392 - type: integer 
+	Parameter NOTE_A4 bound to: 440 - type: integer 
+	Parameter NOTE_B4 bound to: 493 - type: integer 
+	Parameter NOTE_C5 bound to: 523 - type: integer 
+	Parameter NOTE_DURATION bound to: 500 - type: integer 
+	Parameter one_min bound to: 60000 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element pcount_reg was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:206]
+INFO: [Synth 8-6155] done synthesizing module 'music_play__parameterized0' (28#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:189]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:378]
+WARNING: [Synth 8-6014] Unused sequential element reset_pulse_reg was removed.  [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:345]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3848] Net vgaRed in module/entity top_module does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:32]
+WARNING: [Synth 8-3848] Net vgaBlue in module/entity top_module does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:32]
+WARNING: [Synth 8-3848] Net vgaGreen in module/entity top_module does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:32]
+WARNING: [Synth 8-3848] Net Hsync in module/entity top_module does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:32]
+WARNING: [Synth 8-3848] Net Vsync in module/entity top_module does not have driver. [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'top_module' (29#1) [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v:23]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[25]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[24]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[23]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[22]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[21]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[20]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[19]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[18]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[17]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[16]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[14]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[13]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[12]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[11]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[10]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[9]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[8]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[7]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[6]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[5]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[4]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[3]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[2]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[1]
+WARNING: [Synth 8-3331] design screen_selector has unconnected port abc[0]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port JC[2]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[25]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[24]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[23]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[22]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[21]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[20]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[19]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[18]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[17]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[16]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[15]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[14]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[13]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[12]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[11]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[10]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[9]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[8]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[7]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[6]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[5]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[4]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[3]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[2]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[1]
+WARNING: [Synth 8-3331] design display_letters_to_screen has unconnected port abc[0]
+WARNING: [Synth 8-3331] design loading_screen has unconnected port JC[2]
+WARNING: [Synth 8-3331] design map1 has unconnected port JC[2]
+WARNING: [Synth 8-3331] design pause has unconnected port JC[2]
+WARNING: [Synth 8-3331] design end_screen has unconnected port JC[2]
+WARNING: [Synth 8-3331] design difficulty_menu has unconnected port JC[2]
+WARNING: [Synth 8-3331] design menu_screen has unconnected port JC[2]
+WARNING: [Synth 8-3331] design menu_screen has unconnected port btnC
+WARNING: [Synth 8-3331] design menu_screen has unconnected port btnD
+WARNING: [Synth 8-3331] design survival_bar has unconnected port JC[2]
+WARNING: [Synth 8-3331] design map2 has unconnected port JC[2]
+WARNING: [Synth 8-3331] design startup_screen has unconnected port JC[2]
+WARNING: [Synth 8-3331] design startup_screen has unconnected port btnl
+WARNING: [Synth 8-3331] design startup_screen has unconnected port btnu
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[495]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[494]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[493]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[492]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[491]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[490]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[489]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[488]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[487]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[486]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[485]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[484]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[483]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[482]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[479]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[478]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[477]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[476]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[475]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[474]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[473]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[472]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[471]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[470]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[469]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[468]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[467]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[466]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[463]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[462]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[461]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[460]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[459]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[458]
+WARNING: [Synth 8-3331] design decomposer has unconnected port m_data_flattened[457]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 645.738 ; gain = 389.426
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 645.738 ; gain = 389.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 645.738 ; gain = 389.426
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new/basys3_constraints.xdc]
+Finished Parsing XDC File [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new/basys3_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new/basys3_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_module_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_module_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1052.574 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "O" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "cnt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "key_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "key_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "m_data_00" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "m_data_01" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "m_data_10" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "m_data_11" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "elong_signal" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Oled_Display'
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "fsm_next_state0" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "oled_colour" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_colour1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_colour" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_colour" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_char" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "oled_colour" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_colour1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_colour" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "oled_colour" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "display_separator19" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'screen_sel_reg' in module 'screen_selector'
+INFO: [Synth 8-5544] ROM "screen_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "screen_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'debounce'
+INFO: [Synth 8-5544] ROM "button_out" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "song" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "song" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "JC" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "reset_map_1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 PowerUp | 00000000100000000000000000000000 |                            00000
+                   Reset | 00000000000100000000000000000000 |                            00001
+            ReleaseReset | 00000000000000000000100000000000 |                            00011
+            EnableDriver | 00000000000000000001000000000000 |                            00010
+              DisplayOff | 00000000000000000100000000000000 |                            00110
+   SetRemapDisplayFormat | 00000100000000000000000000000000 |                            00111
+            SetStartLine | 00001000000000000000000000000000 |                            00101
+               SetOffset | 10000000000000000000000000000000 |                            00100
+        SetNormalDisplay | 00000000000000000000000010000000 |                            01100
+       SetMultiplexRatio | 00000000000000000000000000100000 |                            01101
+  SetMasterConfiguration | 00000000000000000000000001000000 |                            01111
+        DisablePowerSave | 00000000000000000000000000000100 |                            01110
+          SetPhaseAdjust | 00000000000000000000000000001000 |                            01010
+         SetDisplayClock | 00000000001000000000000000000000 |                            01011
+     SetSecondPrechargeA | 00000000010000000000000000000000 |                            01001
+     SetSecondPrechargeB | 01000000000000000000000000000000 |                            01000
+     SetSecondPrechargeC | 00000010000000000000000000000000 |                            11000
+       SetPrechargeLevel | 00000001000000000000000000000000 |                            11001
+                SetVCOMH | 00000000000000010000000000000000 |                            11011
+        SetMasterCurrent | 00000000000000100000000000000000 |                            11010
+            SetContrastA | 00000000000001000000000000000000 |                            11110
+            SetContrastB | 00100000000000000000000000000000 |                            11111
+            SetContrastC | 00000000000000000000000000000001 |                            11101
+        DisableScrolling | 00000000000000000000000000000010 |                            11100
+             ClearScreen | 00000000000000000000000000010000 |                            10100
+                   VccEn | 00010000000000000000000000000000 |                            10101
+               DisplayOn | 00000000000010000000000000000000 |                            10111
+        PrepareNextFrame | 00000000000000001000000000000000 |                            10110
+           SetColAddress | 00000000000000000000010000000000 |                            10010
+           SetRowAddress | 00000000000000000000000100000000 |                            10011
+           WaitNextFrame | 00000000000000000000001000000000 |                            10001
+               SendPixel | 00000000000000000010000000000000 |                            10000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Oled_Display'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE8 |                       0000000001 | 00000000000000000000000000000000
+                 iSTATE6 |                       0000000010 | 00000000000000000000000000000010
+                 iSTATE1 |                       0000000100 | 00000000000000000000000000001000
+                 iSTATE0 |                       0000001000 | 00000000000000000000000000001001
+                 iSTATE7 |                       0000010000 | 00000000000000000000000000000001
+                 iSTATE5 |                       0000100000 | 00000000000000000000000000000100
+                  iSTATE |                       0001000000 | 00000000000000000000000000000111
+                 iSTATE4 |                       0010000000 | 00000000000000000000000000000011
+                 iSTATE2 |                       0100000000 | 00000000000000000000000000000110
+                 iSTATE3 |                       1000000000 | 00000000000000000000000000000101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'screen_sel_reg' using encoding 'one-hot' in module 'screen_selector'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+                DEBOUNCE |                               01 |                               01
+            WAIT_RELEASE |                               10 |                               10
+                  iSTATE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'debounce'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:44 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------+------------+----------+
+|      |RTL Partition    |Replication |Instances |
++------+-----------------+------------+----------+
+|1     |note_grader      |           2|     11298|
+|2     |map2__GB0        |           1|     23688|
+|3     |map2__GB1        |           1|     22660|
+|4     |map2__GB2        |           1|     11350|
+|5     |map2__GB3        |           1|     15249|
+|6     |map2__GB4        |           1|     19718|
+|7     |map2__GB5        |           1|     24095|
+|8     |map1__GB0        |           1|     23588|
+|9     |map1__GB1        |           1|     10472|
+|10    |map1__GB2        |           1|     24257|
+|11    |map1__GB3        |           1|     14793|
+|12    |map1__GB4        |           1|     19563|
+|13    |map1__GB5        |           1|     24039|
+|14    |top_module__GCB0 |           1|     44511|
+|15    |top_module__GCB1 |           1|     15232|
+|16    |top_module__GCB2 |           1|     12868|
++------+-----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 4     
+	   2 Input     32 Bit       Adders := 602   
+	   2 Input     17 Bit       Adders := 10    
+	   2 Input     16 Bit       Adders := 3     
+	   2 Input     15 Bit       Adders := 31    
+	   2 Input      8 Bit       Adders := 20    
+	   2 Input      7 Bit       Adders := 344   
+	   2 Input      6 Bit       Adders := 92    
+	   2 Input      5 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 9     
+	   2 Input      3 Bit       Adders := 58    
+	   2 Input      2 Bit       Adders := 1     
+	   2 Input      1 Bit       Adders := 63    
++---Registers : 
+	               93 Bit    Registers := 1     
+	               79 Bit    Registers := 1     
+	               40 Bit    Registers := 10    
+	               32 Bit    Registers := 2     
+	               31 Bit    Registers := 2     
+	               24 Bit    Registers := 1     
+	               17 Bit    Registers := 10    
+	               16 Bit    Registers := 11    
+	               15 Bit    Registers := 1     
+	                8 Bit    Registers := 8     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 81    
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 11    
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 189   
++---Multipliers : 
+	                 5x32  Multipliers := 2     
++---RAMs : 
+	              434 Bit         RAMs := 8     
++---Muxes : 
+	   2 Input     93 Bit        Muxes := 1     
+	   2 Input     79 Bit        Muxes := 1     
+	   2 Input     40 Bit        Muxes := 30    
+	  32 Input     32 Bit        Muxes := 10    
+	   2 Input     32 Bit        Muxes := 20    
+	  10 Input     32 Bit        Muxes := 1     
+	  43 Input     32 Bit        Muxes := 2     
+	   2 Input     31 Bit        Muxes := 32    
+	  32 Input     20 Bit        Muxes := 10    
+	   2 Input     17 Bit        Muxes := 10    
+	   6 Input     16 Bit        Muxes := 3     
+	   2 Input     16 Bit        Muxes := 466   
+	   5 Input     16 Bit        Muxes := 2     
+	   4 Input     16 Bit        Muxes := 4     
+	  21 Input     16 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 1     
+	  31 Input     16 Bit        Muxes := 20    
+	  17 Input     16 Bit        Muxes := 1     
+	  16 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 3     
+	   7 Input     15 Bit        Muxes := 1     
+	   7 Input     14 Bit        Muxes := 1     
+	  10 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 15    
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 2     
+	   9 Input      7 Bit        Muxes := 2     
+	   6 Input      7 Bit        Muxes := 2     
+	   5 Input      7 Bit        Muxes := 4     
+	   2 Input      7 Bit        Muxes := 2     
+	   4 Input      7 Bit        Muxes := 2     
+	  32 Input      6 Bit        Muxes := 10    
+	   2 Input      6 Bit        Muxes := 10    
+	   2 Input      5 Bit        Muxes := 20    
+	  32 Input      5 Bit        Muxes := 10    
+	   2 Input      4 Bit        Muxes := 9     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	  31 Input      2 Bit        Muxes := 8     
+	   3 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 32    
+	   2 Input      1 Bit        Muxes := 340   
+	   5 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 22    
+	  15 Input      1 Bit        Muxes := 2     
+	  10 Input      1 Bit        Muxes := 5     
+	   3 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top_module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 7     
+	  11 Input      1 Bit        Muxes := 5     
+Module clock_divider__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module decomposer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      1 Bit        Muxes := 4     
+Module note_grader 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 8     
+	   2 Input     15 Bit       Adders := 15    
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	              434 Bit         RAMs := 4     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 16    
+	   2 Input      4 Bit        Muxes := 4     
+	  31 Input      2 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 8     
+	   2 Input      1 Bit        Muxes := 22    
+	   5 Input      1 Bit        Muxes := 2     
+Module char__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      1 Bit        Muxes := 11    
+	  15 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Oled_Display__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module clock_divider__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module map2 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 293   
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 170   
+	   2 Input      6 Bit       Adders := 39    
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 29    
+	   2 Input      1 Bit       Adders := 31    
++---Registers : 
+	               93 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 34    
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 33    
++---Multipliers : 
+	                 5x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     93 Bit        Muxes := 1     
+	   6 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 68    
+	   5 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   9 Input      7 Bit        Muxes := 1     
+	   6 Input      7 Bit        Muxes := 1     
+	   5 Input      7 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 105   
+	  10 Input      1 Bit        Muxes := 1     
+Module char 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      1 Bit        Muxes := 11    
+	  15 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Oled_Display__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module clock_divider__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module map1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 293   
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      7 Bit       Adders := 170   
+	   2 Input      6 Bit       Adders := 39    
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 29    
+	   2 Input      1 Bit       Adders := 31    
++---Registers : 
+	               79 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 34    
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 33    
++---Multipliers : 
+	                 5x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     79 Bit        Muxes := 1     
+	   6 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 68    
+	   5 Input     16 Bit        Muxes := 1     
+	   2 Input     15 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   9 Input      7 Bit        Muxes := 1     
+	   5 Input      7 Bit        Muxes := 2     
+	   6 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   4 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 105   
+	  10 Input      1 Bit        Muxes := 1     
+Module debouncer__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module debouncer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module PS2Receiver 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 2     
+Module keypress 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized12 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized13 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized14 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized15 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized16 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized17 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized18 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized19 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized20 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized21 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized22 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized23 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized24 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized25 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized26 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized27 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized28 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module keypress__parameterized29 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized30 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module keypress__parameterized31 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module key_status 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module play_timer__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module flexible_clock__4 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module flexible_clock__5 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display__6 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module startup_screen 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 8     
+	   4 Input     16 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module clock_divider__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module menu_screen 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   6 Input     16 Bit        Muxes := 1     
+Module screen_selector 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	  10 Input     32 Bit        Muxes := 1     
+	  10 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 15    
+	   2 Input      1 Bit        Muxes := 13    
+	  10 Input      1 Bit        Muxes := 3     
+Module flexible_clock__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module display_letters_to_screen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 10    
+	   2 Input      7 Bit       Adders := 3     
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	  21 Input     16 Bit        Muxes := 2     
+	   3 Input     16 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 319   
+	  31 Input     16 Bit        Muxes := 20    
+Module flexible_clock__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module flexible_clock__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module loading_screen 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module clock_divider__14 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__15 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display__9 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module pause 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+Module flexible_clock__7 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module flexible_clock__8 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display__8 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module end_screen 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	  17 Input     16 Bit        Muxes := 1     
+	  16 Input     16 Bit        Muxes := 1     
+Module flexible_clock__6 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Point_system_display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 3     
+	   2 Input     15 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     15 Bit        Muxes := 1     
+	   7 Input     15 Bit        Muxes := 1     
+	   7 Input     14 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module clock_divider__12 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clock_divider__13 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display__7 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module difficulty_menu 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 2     
+Module elongate__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module elongate__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module elongate__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module play_timer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module short_press__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module short_press__2 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module short_press__3 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module short_press 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module flexible_clock 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module single_note 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module debounce 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+Module music_play__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	  43 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+Module flexible_clock__11 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module single_note__1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module debounce__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 4     
+Module music_play 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	  43 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+Module flexible_clock__9 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module flexible_clock__10 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Oled_Display 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     40 Bit        Muxes := 3     
+	  32 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	  32 Input     20 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 1     
+	  32 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module survival_bar 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+Module elongate 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'oled_colour_reg[1]' (FDE) to 'oled_colour_reg[2]'
+INFO: [Synth 8-3886] merging instance 'oled_colour_reg[2]' (FDE) to 'oled_colour_reg[3]'
+INFO: [Synth 8-3886] merging instance 'oled_colour_reg[6]' (FDE) to 'oled_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'oled_colour_reg[8]' (FDE) to 'oled_colour_reg[9]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (set_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\current_char_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\health_level_reg[0] )
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3886] merging instance 'oled_colour_reg[1]' (FDE) to 'oled_colour_reg[2]'
+INFO: [Synth 8-3886] merging instance 'oled_colour_reg[2]' (FDE) to 'oled_colour_reg[3]'
+INFO: [Synth 8-3886] merging instance 'oled_colour_reg[6]' (FDE) to 'oled_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'oled_colour_reg[8]' (FDE) to 'oled_colour_reg[9]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (set_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\current_char_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_2/\health_level_reg[0] )
+INFO: [Synth 8-5546] ROM "key_right/key_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "key_right/key_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "all_keys/key_right/key_status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "all_keys/key_right/key_status" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design top_module__GCB0 has port p_1_out[0] driven by constant 0
+WARNING: [Synth 8-3917] design top_module__GCB0 has port O121[0] driven by constant 0
+WARNING: [Synth 8-3917] design top_module__GCB0 has port O122[0] driven by constant 0
+WARNING: [Synth 8-3917] design top_module__GCB0 has port O123[0] driven by constant 0
+WARNING: [Synth 8-3917] design top_module__GCB0 has port O125[0] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[0]' (FDR) to 'let/oled_colour_reg[1]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[0]' (FD) to 'load/oled_colour_reg[1]'
+INFO: [Synth 8-3886] merging instance 'init/oled_colour_reg[0]' (FDE) to 'init/oled_colour_reg[1]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[1]' (FDR) to 'let/oled_colour_reg[2]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[1]' (FD) to 'load/oled_colour_reg[2]'
+INFO: [Synth 8-3886] merging instance 'init/oled_colour_reg[1]' (FDE) to 'init/oled_colour_reg[3]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[2]' (FDR) to 'let/oled_colour_reg[3]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[2]' (FD) to 'load/oled_colour_reg[3]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[3]' (FDR) to 'let/oled_colour_reg[4]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[3]' (FD) to 'load/oled_colour_reg[4]'
+INFO: [Synth 8-3886] merging instance 'init/oled_colour_reg[3]' (FDE) to 'init/oled_colour_reg[4]'
+INFO: [Synth 8-3886] merging instance 'menu/oled_data_reg[3]' (FD) to 'menu/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[4]' (FDR) to 'let/oled_colour_reg[5]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[4]' (FD) to 'load/oled_colour_reg[11]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[5]' (FDR) to 'let/oled_colour_reg[6]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[5]' (FD) to 'load/oled_colour_reg[6]'
+INFO: [Synth 8-3886] merging instance 'init/oled_colour_reg[5]' (FDE) to 'init/oled_colour_reg[6]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[6]' (FDR) to 'let/oled_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[6]' (FD) to 'load/oled_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'menu/oled_data_reg[6]' (FD) to 'menu/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[7]' (FDR) to 'let/oled_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[7]' (FD) to 'load/oled_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'menu/oled_data_reg[7]' (FD) to 'menu/oled_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[8]' (FDR) to 'let/oled_colour_reg[9]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[8]' (FD) to 'load/oled_colour_reg[9]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[9]' (FDR) to 'let/oled_colour_reg[10]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[9]' (FD) to 'load/oled_colour_reg[10]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (let/\oled_colour_reg[10] )
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[11]' (FDS) to 'let/oled_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[11]' (FD) to 'load/oled_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'init/oled_colour_reg[11]' (FDE) to 'init/oled_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[12]' (FDS) to 'let/oled_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[12]' (FD) to 'load/oled_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'init/oled_colour_reg[12]' (FDE) to 'init/oled_colour_reg[14]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[13]' (FDS) to 'let/oled_colour_reg[14]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[13]' (FD) to 'load/oled_colour_reg[14]'
+INFO: [Synth 8-3886] merging instance 'init/oled_colour_reg[13]' (FDE) to 'init/oled_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'let/oled_colour_reg[14]' (FDS) to 'let/oled_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'load/oled_colour_reg[14]' (FD) to 'load/oled_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprev_reg[7]' (FDE) to 'all_keys/uut/keycode_reg[7]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprev_reg[5]' (FDE) to 'all_keys/uut/keycode_reg[5]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprev_reg[6]' (FDE) to 'all_keys/uut/keycode_reg[6]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprev_reg[0]' (FDE) to 'all_keys/uut/keycode_reg[0]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprev_reg[4]' (FDE) to 'all_keys/uut/keycode_reg[4]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprev_reg[1]' (FDE) to 'all_keys/uut/keycode_reg[1]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprev_reg[2]' (FDE) to 'all_keys/uut/keycode_reg[2]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprev_reg[3]' (FDE) to 'all_keys/uut/keycode_reg[3]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprevprev_reg[2]' (FDE) to 'all_keys/uut/keycode_reg[10]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprevprev_reg[0]' (FDE) to 'all_keys/uut/keycode_reg[8]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprevprev_reg[1]' (FDE) to 'all_keys/uut/keycode_reg[9]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprevprev_reg[4]' (FDE) to 'all_keys/uut/keycode_reg[12]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprevprev_reg[3]' (FDE) to 'all_keys/uut/keycode_reg[11]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprevprev_reg[6]' (FDE) to 'all_keys/uut/keycode_reg[14]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprevprev_reg[5]' (FDE) to 'all_keys/uut/keycode_reg[13]'
+INFO: [Synth 8-3886] merging instance 'all_keys/uut/dataprevprev_reg[7]' (FDE) to 'all_keys/uut/keycode_reg[15]'
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[10]) is unused and will be removed from module display_letters_to_screen.
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "disp/fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "disp/fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "elong_signal" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "elong_signal" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "elong_signal" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[0]' (FDR) to 'difmenu/oled_data_reg[4]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[0]' (FDS) to 'endingscreen/oled_colour_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[0]' (FDR) to 'pausescreen/oled_colour_reg[1]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[1]' (FDR) to 'difmenu/oled_data_reg[2]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[1]' (FDS) to 'endingscreen/oled_colour_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[1]' (FDR) to 'pausescreen/oled_colour_reg[2]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[2]' (FDR) to 'difmenu/oled_data_reg[3]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[2]' (FDS) to 'endingscreen/oled_colour_reg[4]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[2]' (FDR) to 'pausescreen/oled_colour_reg[3]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[3]' (FDR) to 'difmenu/oled_data_reg[6]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[3]' (FDS) to 'endingscreen/oled_colour_reg[4]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[4]' (FDR) to 'difmenu/oled_data_reg[5]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[5]' (FDR) to 'difmenu/oled_data_reg[11]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[5]' (FDS) to 'endingscreen/oled_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[5]' (FDR) to 'pausescreen/oled_colour_reg[6]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[6]' (FDR) to 'difmenu/oled_data_reg[7]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[6]' (FDS) to 'endingscreen/oled_colour_reg[8]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[6]' (FDR) to 'pausescreen/oled_colour_reg[7]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[7]' (FDR) to 'difmenu/oled_data_reg[8]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[7]' (FDS) to 'endingscreen/oled_colour_reg[9]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[8]' (FDR) to 'difmenu/oled_data_reg[9]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[8]' (FDS) to 'endingscreen/oled_colour_reg[10]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[8]' (FDR) to 'pausescreen/oled_colour_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (difmenu/\oled_data_reg[9] )
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[9]' (FDR) to 'pausescreen/oled_colour_reg[10]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[11]' (FDR) to 'difmenu/oled_data_reg[13]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[11]' (FDS) to 'endingscreen/oled_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[11]' (FDR) to 'pausescreen/oled_colour_reg[12]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[12]' (FDR) to 'difmenu/oled_data_reg[15]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[12]' (FDS) to 'endingscreen/oled_colour_reg[14]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[12]' (FDR) to 'pausescreen/oled_colour_reg[13]'
+INFO: [Synth 8-3886] merging instance 'difmenu/oled_data_reg[13]' (FDR) to 'difmenu/oled_data_reg[14]'
+INFO: [Synth 8-3886] merging instance 'endingscreen/oled_colour_reg[13]' (FDS) to 'endingscreen/oled_colour_reg[15]'
+INFO: [Synth 8-3886] merging instance 'pausescreen/oled_colour_reg[13]' (FDR) to 'pausescreen/oled_colour_reg[14]'
+WARNING: [Synth 8-3332] Sequential element (oled_data_reg[9]) is unused and will be removed from module difficulty_menu.
+INFO: [Synth 8-4471] merging register 'play1/pause_prev_reg' into 'play2/pause_prev_reg' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:202]
+INFO: [Synth 8-4471] merging register 'play1/pause_int_reg' into 'play2/pause_int_reg' [C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v:203]
+INFO: [Synth 8-5546] ROM "my_oled_unit/fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "my_oled_unit/fsm_next_state0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "elong_signal" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'play1/tone_freq_reg[31]' (FDRE) to 'play1/tone_freq_reg[1]'
+INFO: [Synth 8-3886] merging instance 'play1/tone_freq_reg[1]' (FDRE) to 'play1/tone_freq_reg[30]'
+INFO: [Synth 8-3886] merging instance 'play1/tone_freq_reg[9]' (FDRE) to 'play1/tone_freq_reg[30]'
+INFO: [Synth 8-3886] merging instance 'play1/tone_freq_reg[10]' (FDRE) to 'play1/tone_freq_reg[30]'
+INFO: [Synth 8-3886] merging instance 'play1/tone_freq_reg[11]' (FDRE) to 'play1/tone_freq_reg[30]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\play1/tone_freq_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\play2/tone_freq_reg[30] )
+WARNING: [Synth 8-3332] Sequential element (button_out_reg) is unused and will be removed from module debounce.
+WARNING: [Synth 8-3332] Sequential element (button_out_reg) is unused and will be removed from module debounce__1.
+WARNING: [Synth 8-3332] Sequential element (unit_4/slow_clock_reg) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[15]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[14]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[13]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[12]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[11]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[10]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[9]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[8]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[7]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[6]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[5]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[4]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[3]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[2]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[1]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (oled_colour_reg[0]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[39]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[38]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[37]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[36]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[35]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[34]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[33]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[32]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[31]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[30]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[29]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[28]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[27]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[26]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[25]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[24]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[23]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[22]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[21]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[20]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[19]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[18]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[17]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[16]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[15]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[14]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[13]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[12]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[11]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[10]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[9]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[8]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[7]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[6]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[5]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[4]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[3]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[2]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[1]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (my_oled_unit/spi_word_reg[0]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (btnc_prev_reg) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (bar_width_reg[5]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (bar_width_reg[4]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (bar_width_reg[3]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (bar_width_reg[2]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (bar_width_reg[1]) is unused and will be removed from module survival_bar.
+WARNING: [Synth 8-3332] Sequential element (bar_width_reg[0]) is unused and will be removed from module survival_bar.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:46 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+---------------+-----------+----------------------+--------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives   | 
++------------+---------------+-----------+----------------------+--------------+
+|note_grader | m_data_11_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_00_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_10_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_01_reg | Implied   | 32 x 14              | RAM32M x 3   | 
++------------+---------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------+------------+----------+
+|      |RTL Partition    |Replication |Instances |
++------+-----------------+------------+----------+
+|1     |note_grader      |           2|      3709|
+|2     |map2__GB0        |           1|      7254|
+|3     |map2__GB1        |           1|      4060|
+|4     |map2__GB2        |           1|      2763|
+|5     |map2__GB3        |           1|      1368|
+|6     |map2__GB4        |           1|      1119|
+|7     |map2__GB5        |           1|       370|
+|8     |map1__GB0        |           1|      6869|
+|9     |map1__GB1        |           1|      2574|
+|10    |map1__GB2        |           1|      5843|
+|11    |map1__GB3        |           1|      3059|
+|12    |map1__GB4        |           1|       610|
+|13    |map1__GB5        |           1|       410|
+|14    |top_module__GCB0 |           1|      6263|
+|15    |top_module__GCB1 |           1|      5778|
+|16    |top_module__GCB2 |           1|      3708|
++------+-----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:14 ; elapsed = 00:01:55 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (missed_notes_reg[29]) is unused and will be removed from module note_grader.
+WARNING: [Synth 8-3332] Sequential element (missed_notes_reg[29]) is unused and will be removed from module note_grader__1.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_0/\JC_reg[7] )
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:17 ; elapsed = 00:01:59 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+---------------+-----------+----------------------+--------------+
+|Module Name | RTL Object    | Inference | Size (Depth x Width) | Primitives   | 
++------------+---------------+-----------+----------------------+--------------+
+|note_grader | m_data_11_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_00_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_10_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_01_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_11_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_00_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_10_reg | Implied   | 32 x 14              | RAM32M x 3   | 
+|note_grader | m_data_01_reg | Implied   | 32 x 14              | RAM32M x 3   | 
++------------+---------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------+------------+----------+
+|      |RTL Partition    |Replication |Instances |
++------+-----------------+------------+----------+
+|1     |note_grader      |           1|      3163|
+|2     |map2__GB0        |           1|      7237|
+|3     |map2__GB1        |           1|      4060|
+|4     |map2__GB2        |           1|      2763|
+|5     |map2__GB3        |           1|      1368|
+|6     |map2__GB4        |           1|      1119|
+|7     |map2__GB5        |           1|       370|
+|8     |map1__GB0        |           1|      6860|
+|9     |map1__GB1        |           1|      2574|
+|10    |map1__GB2        |           1|      5843|
+|11    |map1__GB3        |           1|      3059|
+|12    |map1__GB4        |           1|       610|
+|13    |map1__GB5        |           1|       410|
+|14    |top_module__GCB2 |           1|      3708|
+|15    |note_grader__1   |           1|      3169|
+|16    |top_module_GT0   |           1|     12023|
++------+-----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:21 ; elapsed = 00:02:05 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-----------------+------------+----------+
+|      |RTL Partition    |Replication |Instances |
++------+-----------------+------------+----------+
+|1     |note_grader      |           1|      1526|
+|2     |map2__GB0        |           1|      4063|
+|3     |map2__GB1        |           1|      3250|
+|4     |map2__GB2        |           1|      1503|
+|5     |map2__GB3        |           1|      1067|
+|6     |map2__GB4        |           1|       646|
+|7     |map2__GB5        |           1|       182|
+|8     |map1__GB0        |           1|      3509|
+|9     |map1__GB1        |           1|      1526|
+|10    |map1__GB2        |           1|      3545|
+|11    |map1__GB3        |           1|      1661|
+|12    |map1__GB4        |           1|       308|
+|13    |map1__GB5        |           1|       178|
+|14    |top_module__GCB2 |           1|      2495|
+|15    |note_grader__1   |           1|      1529|
+|16    |top_module_GT0   |           1|      5669|
++------+-----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (secondmap/moving_arrow_reg[13]) is unused and will be removed from module top_module.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:24 ; elapsed = 00:02:10 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:24 ; elapsed = 00:02:10 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:26 ; elapsed = 00:02:13 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:26 ; elapsed = 00:02:13 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:26 ; elapsed = 00:02:13 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:26 ; elapsed = 00:02:13 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |    12|
+|2     |CARRY4 |  4126|
+|3     |LUT1   |   536|
+|4     |LUT2   |  2662|
+|5     |LUT3   |  2969|
+|6     |LUT4   |  4454|
+|7     |LUT5   |  5535|
+|8     |LUT6   |  8668|
+|9     |MUXF7  |    15|
+|10    |RAM32M |    24|
+|11    |FDE_1  |   320|
+|12    |FDRE   |  3673|
+|13    |FDSE   |     8|
+|14    |IBUF   |     6|
+|15    |OBUF   |    37|
+|16    |OBUFT  |    14|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------+---------------------------+------+
+|      |Instance            |Module                     |Cells |
++------+--------------------+---------------------------+------+
+|1     |top                 |                           | 33059|
+|2     |  all_keys          |key_status                 |   135|
+|3     |    key_down        |keypress__parameterized26  |     4|
+|4     |    key_enter       |keypress__parameterized29  |     1|
+|5     |    key_left        |keypress__parameterized27  |     4|
+|6     |    key_lshift      |keypress__parameterized30  |     2|
+|7     |    key_p           |keypress__parameterized8   |     5|
+|8     |    key_right       |keypress__parameterized28  |     1|
+|9     |    key_space       |keypress__parameterized31  |     1|
+|10    |    key_up          |keypress__parameterized25  |     2|
+|11    |    uut             |PS2Receiver                |   113|
+|12    |      db_clk        |debouncer                  |    15|
+|13    |      db_data       |debouncer_39               |    16|
+|14    |  b1                |short_press                |    55|
+|15    |  b2                |short_press_0              |    55|
+|16    |  b3                |short_press_1              |    55|
+|17    |  b4                |short_press_2              |    55|
+|18    |  bar1              |survival_bar               |   245|
+|19    |    my_oled_unit    |Oled_Display_37            |   195|
+|20    |    unit_1          |flexible_clock_38          |    50|
+|21    |  clk_20            |clock_divider              |    57|
+|22    |  difmenu           |difficulty_menu            |   560|
+|23    |    disp            |Oled_Display_35            |   462|
+|24    |    divider_6p25MHz |clock_divider_36           |    50|
+|25    |  endingscreen      |end_screen                 |   704|
+|26    |    my_oled_unit    |Oled_Display_32            |   523|
+|27    |    unit_1          |flexible_clock_33          |    50|
+|28    |    unit_3          |flexible_clock_34          |    50|
+|29    |  firstmap          |map1                       | 10731|
+|30    |    my_oled_unit    |Oled_Display_29            |  4356|
+|31    |    unit_1          |clock_divider_30           |    50|
+|32    |    unit_2          |clock_divider_31           |    50|
+|33    |  grader_1_1        |note_grader                |  1005|
+|34    |    decomposer_1    |decomposer_27              |   376|
+|35    |    div1            |clock_divider_28           |    57|
+|36    |  grader_2_1        |note_grader_3              |  1040|
+|37    |    decomposer_1    |decomposer                 |   376|
+|38    |    div1            |clock_divider_26           |    57|
+|39    |  init              |startup_screen             |   796|
+|40    |    my_oled_unit    |Oled_Display_23            |   569|
+|41    |    unit_1          |flexible_clock_24          |    50|
+|42    |    unit_3          |flexible_clock_25          |    50|
+|43    |  l1                |elongate                   |    68|
+|44    |  l2                |elongate_4                 |    63|
+|45    |  l3                |elongate_5                 |    66|
+|46    |  l4                |elongate_6                 |    57|
+|47    |  let               |display_letters_to_screen  |   457|
+|48    |    my_oled_unit    |Oled_Display_21            |   390|
+|49    |    unit_1          |flexible_clock_22          |    57|
+|50    |  load              |loading_screen             |   655|
+|51    |    my_oled_unit    |Oled_Display_18            |   493|
+|52    |    unit_1          |flexible_clock_19          |    51|
+|53    |    unit_3          |flexible_clock_20          |    50|
+|54    |  menu              |menu_screen                |   790|
+|55    |    disp            |Oled_Display_16            |   618|
+|56    |    divider_6p25MHz |clock_divider_17           |    51|
+|57    |  pausescreen       |pause                      |   655|
+|58    |    disp            |Oled_Display_14            |   503|
+|59    |    divider_6p25MHz |clock_divider_15           |    50|
+|60    |  play1             |music_play                 |  1065|
+|61    |    clk_divider     |flexible_clock_11          |    57|
+|62    |    debounce_pause  |debounce_12                |    26|
+|63    |    tone_gen        |single_note_13             |   861|
+|64    |  play2             |music_play__parameterized0 |  1067|
+|65    |    clk_divider     |flexible_clock_10          |    57|
+|66    |    debounce_pause  |debounce                   |    26|
+|67    |    tone_gen        |single_note                |   860|
+|68    |  play_time1        |play_timer                 |   540|
+|69    |  play_time2        |play_timer_7               |   519|
+|70    |  points            |Point_system_display       |   377|
+|71    |    unit_0          |flexible_clock             |    50|
+|72    |  secondmap         |map2                       | 10742|
+|73    |    my_oled_unit    |Oled_Display               |  4381|
+|74    |    unit_1          |clock_divider_8            |    50|
+|75    |    unit_2          |clock_divider_9            |    50|
+|76    |  sel_1             |screen_selector            |    67|
++------+--------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:26 ; elapsed = 00:02:13 . Memory (MB): peak = 1053.098 ; gain = 796.785
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 224 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:07 ; elapsed = 00:02:00 . Memory (MB): peak = 1053.098 ; gain = 389.426
+Synthesis Optimization Complete : Time (s): cpu = 00:01:26 ; elapsed = 00:02:14 . Memory (MB): peak = 1053.098 ; gain = 796.785
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4491 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 344 instances were transformed.
+  FDE_1 => FDRE (inverted pins: C): 320 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 24 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+379 Infos, 325 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:32 ; elapsed = 00:02:21 . Memory (MB): peak = 1053.098 ; gain = 809.727
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.runs/synth_1/top_module.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_module_utilization_synth.rpt -pb top_module_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.162 . Memory (MB): peak = 1053.098 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  9 07:07:26 2025...

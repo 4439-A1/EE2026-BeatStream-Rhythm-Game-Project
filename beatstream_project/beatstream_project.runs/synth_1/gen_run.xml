@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1736435096">
+  <File Type="PA-TCL" Name="top_module.tcl"/>
+  <File Type="REPORTS-TCL" Name="top_module_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top_module.vds"/>
+  <File Type="RDS-UTIL" Name="top_module_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_module_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top_module.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Oled_Display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Oled_Display.v"/>
+        <Attr Name="ImportTime" Val="1736432402"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PS2Receiver.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/PS2Receiver.v"/>
+        <Attr Name="ImportTime" Val="1736431966"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Point_system_display.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Point_system_display.v"/>
+        <Attr Name="ImportTime" Val="1736432698"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/char.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v"/>
+        <Attr Name="ImportTime" Val="1736432500"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_divider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/clock_divider.v"/>
+        <Attr Name="ImportTime" Val="1736432125"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debounce.v"/>
+        <Attr Name="ImportTime" Val="1736433005"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debouncer.v"/>
+        <Attr Name="ImportTime" Val="1736432004"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decomposer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/decomposer.v"/>
+        <Attr Name="ImportTime" Val="1736432232"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/difficulty_menu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/difficulty_menu.v"/>
+        <Attr Name="ImportTime" Val="1736432646"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display_letters_to_screen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v"/>
+        <Attr Name="ImportTime" Val="1736432881"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/elongate.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/elongate.v"/>
+        <Attr Name="ImportTime" Val="1736432261"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/end_screen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/end_screen.v"/>
+        <Attr Name="ImportTime" Val="1736432733"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/flexible_clock.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/flexible_clock.v"/>
+        <Attr Name="ImportTime" Val="1736432334"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/key_status.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/key_status.v"/>
+        <Attr Name="ImportTime" Val="1736431931"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/keypress.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v"/>
+        <Attr Name="ImportTime" Val="1736432039"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/loading_screen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/loading_screen.v"/>
+        <Attr Name="ImportTime" Val="1736432851"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/map1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v"/>
+        <Attr Name="ImportTime" Val="1736432801"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/map2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v"/>
+        <Attr Name="ImportTime" Val="1736432448"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/menu_screen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/menu_screen.v"/>
+        <Attr Name="ImportTime" Val="1736432574"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/music_play.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v"/>
+        <Attr Name="ImportTime" Val="1736432945"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/note_grader.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/note_grader.v"/>
+        <Attr Name="ImportTime" Val="1736432198"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pause.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/pause.v"/>
+        <Attr Name="ImportTime" Val="1736432766"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/play_timer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/play_timer.v"/>
+        <Attr Name="ImportTime" Val="1736432160"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/screen_selector.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/screen_selector.v"/>
+        <Attr Name="ImportTime" Val="1736432946"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/short_press.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/short_press.v"/>
+        <Attr Name="ImportTime" Val="1736432092"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/single_note.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/single_note.v"/>
+        <Attr Name="ImportTime" Val="1736432980"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/startup_screen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/startup_screen.v"/>
+        <Attr Name="ImportTime" Val="1736432303"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/survival_bar.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/survival_bar.v"/>
+        <Attr Name="ImportTime" Val="1736432535"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v"/>
+        <Attr Name="ImportTime" Val="1736431841"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_module"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/basys3_constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new/basys3_constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1736435038"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

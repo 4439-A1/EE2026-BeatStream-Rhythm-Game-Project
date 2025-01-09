@@ -1,0 +1,288 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Thu Jan  9 07:11:56 2025
+| Host         : lance-hp running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_module_control_sets_placed.rpt
+| Design       : top_module
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   217 |
+| Unused register locations in slices containing registers |   578 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            6 |
+|      4 |            7 |
+|      6 |            3 |
+|      8 |            3 |
+|     10 |            6 |
+|     12 |           33 |
+|     14 |           11 |
+|    16+ |          148 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             484 |          170 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |            3104 |          542 |
+| Yes          | No                    | No                     |            1666 |          233 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            2488 |          491 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------+-----------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+|                Clock Signal                |                       Enable Signal                       |                    Set/Reset Signal                    | Slice Load Count | Bel Load Count |
++--------------------------------------------+-----------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+|  clk_1kHz_2                                |                                                           |                                                        |                1 |              2 |
+|  slow_clock_6p25mhz_4                      |                                                           |                                                        |                1 |              2 |
+| ~slow_clock_6p25mhz_4                      |                                                           |                                                        |                1 |              2 |
+|  clk_1kHz                                  |                                                           |                                                        |                1 |              2 |
+| ~slow_clock_6p25mhz                        |                                                           |                                                        |                1 |              2 |
+| ~slow_clock_6p25mhz_3                      |                                                           |                                                        |                1 |              2 |
+| ~slow_clock_6p25mhz_5                      |                                                           |                                                        |                2 |              4 |
+| ~clk6p25m                                  |                                                           |                                                        |                2 |              4 |
+| ~slow_clock_6p25mhz_7                      |                                                           |                                                        |                2 |              4 |
+| ~load/unit_1/frame_counter_reg[1]          |                                                           |                                                        |                2 |              4 |
+| ~clk6p25m_6                                |                                                           |                                                        |                2 |              4 |
+|  load/unit_3/CLK                           |                                                           |                                                        |                1 |              4 |
+| ~menu/divider_6p25MHz/frame_counter_reg[1] |                                                           |                                                        |                2 |              4 |
+|  play1/clk_divider/CLK                     |                                                           |                                                        |                3 |              6 |
+|  play2/clk_divider/CLK                     |                                                           |                                                        |                1 |              6 |
+|  init/unit_3/CLK                           |                                                           |                                                        |                1 |              6 |
+|  slow_clock_6p25mhz                        |                                                           | firstmap/my_oled_unit/oled_colour_reg[10]_1            |                3 |              8 |
+| ~all_keys/uut/db_clk/cnt_reg[0]            | all_keys/uut/cnt__3                                       | all_keys/uut/cnt[3]_i_1_n_0                            |                1 |              8 |
+|  slow_clock_6p25mhz_3                      |                                                           | secondmap/my_oled_unit/oled_colour_reg[10]_1           |                1 |              8 |
+|  clk_IBUF_BUFG                             | grader_2_1/decomposer_1/j[4]_i_1__1_n_0                   |                                                        |                1 |             10 |
+|  clk_IBUF_BUFG                             | grader_1_1/j[4]_i_1__0_n_0                                |                                                        |                1 |             10 |
+|  clk_IBUF_BUFG                             | grader_1_1/decomposer_1/j[4]_i_1_n_0                      |                                                        |                1 |             10 |
+|  endingscreen/unit_3/oled_colour_reg[15]   |                                                           |                                                        |                1 |             10 |
+|  clk_IBUF_BUFG                             | grader_2_1/j[4]_i_1__2_n_0                                |                                                        |                1 |             10 |
+|  all_keys/CLK50MHZ                         | all_keys/uut/db_data/count[4]_i_2__0_n_0                  | all_keys/uut/db_data/count[4]_i_1__0_n_0               |                1 |             10 |
+|  slow_clock_20hz_1                         | firstmap/y_var[21][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                3 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[1][5]_i_1__0_n_0                          | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[11][5]_i_2_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[22][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                5 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[2][5]_i_1__0_n_0                           | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[25][5]_i_1__0_n_0                         | secondmap/y_var[11][5]_i_1_n_0                         |                4 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[11][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[16][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                3 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[21][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                5 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[0][5]_i_1_n_0                              | firstmap/moving_arrow[33]_i_1__0_n_0                   |                2 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[10][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                5 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[1][5]_i_1_n_0                              | firstmap/moving_arrow[33]_i_1__0_n_0                   |                5 |             12 |
+|  clk_IBUF_BUFG                             | sel_1/E[0]                                                |                                                        |                4 |             12 |
+|  clk6p25m                                  |                                                           | pausescreen/disp/SR[0]                                 |                2 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[18][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[22][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[2][5]_i_1_n_0                             | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[30][5]_i_1__0_n_0                         | secondmap/y_var[11][5]_i_1_n_0                         |                5 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[28][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                5 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[25][5]_i_1_n_0                             | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[5][5]_i_1__0_n_0                           | firstmap/moving_arrow[33]_i_1__0_n_0                   |                2 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[6][5]_i_1__0_n_0                           | firstmap/moving_arrow[33]_i_1__0_n_0                   |                2 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[3][5]_i_1__0_n_0                           | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[8][5]_i_1_n_0                              | firstmap/moving_arrow[33]_i_1__0_n_0                   |                2 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[4][5]_i_1__0_n_0                           | firstmap/moving_arrow[33]_i_1__0_n_0                   |                5 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[7][5]_i_1__0_n_0                           | firstmap/moving_arrow[33]_i_1__0_n_0                   |                6 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[3][5]_i_1_n_0                             | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[5][5]_i_1_n_0                             | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[30][5]_i_1_n_0                             | firstmap/moving_arrow[33]_i_1__0_n_0                   |                3 |             12 |
+|  slow_clock_20hz_1                         | firstmap/y_var[32][5]_i_1_n_0                             | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[8][5]_i_1__0_n_0                          | secondmap/y_var[11][5]_i_1_n_0                         |                5 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[6][5]_i_1_n_0                             | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             12 |
+|  slow_clock_20hz                           | secondmap/y_var[16][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                4 |             12 |
+|  points/unit_0/CLK                         | points/total_points[14]_i_2_n_0                           | points/total_points[14]_i_1_n_0                        |                4 |             14 |
+|  slow_clock_20hz                           | secondmap/y_var[10][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             14 |
+|  slow_clock_20hz                           | secondmap/y_var[20][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                4 |             14 |
+|  slow_clock_6p25mhz_3                      | secondmap/my_oled_unit/current_char_reg[0]                | secondmap/my_oled_unit/SR[0]                           |                4 |             14 |
+|  slow_clock_6p25mhz                        | firstmap/my_oled_unit/E[0]                                | firstmap/my_oled_unit/SR[0]                            |                6 |             14 |
+|  slow_clock_20hz                           | secondmap/y_var[31][5]_i_1__0_n_0                         | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             14 |
+|  slow_clock_20hz_1                         | firstmap/y_var[12][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                5 |             14 |
+|  slow_clock_20hz                           | secondmap/y_var[9][5]_i_1_n_0                             | secondmap/y_var[11][5]_i_1_n_0                         |                5 |             14 |
+|  slow_clock_20hz_1                         | firstmap/y_var[19][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                3 |             14 |
+|  slow_clock_20hz                           | secondmap/y_var[4][5]_i_1_n_0                             | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             14 |
+|  slow_clock_20hz_1                         | firstmap/y_var[33][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                6 |             14 |
+|  slow_clock_20hz                           | secondmap/y_var[28][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                6 |             16 |
+|  play2/clk_divider/CLK                     | play2/tone_freq                                           | play2/tone_freq[8]_i_1_n_0                             |                2 |             16 |
+|  points/unit_0/CLK                         | points/total_points[13]_i_1_n_0                           | points/btnu_stable                                     |                2 |             16 |
+|  play1/clk_divider/CLK                     | play1/tone_freq[8]_i_2__0_n_0                             | play1/tone_freq[8]_i_1__0_n_0                          |                3 |             16 |
+| ~all_keys/uut/oflag                        |                                                           |                                                        |                3 |             16 |
+|  slow_clock_20hz                           | secondmap/y_var[32][5]_i_1__0_n_0                         | secondmap/y_var[11][5]_i_1_n_0                         |                3 |             16 |
+|  slow_clock_20hz                           | secondmap/y_var[12][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                4 |             16 |
+|  slow_clock_20hz                           | secondmap/y_var[19][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                7 |             16 |
+|  slow_clock_20hz_1                         | firstmap/y_var[29][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                6 |             18 |
+|  slow_clock_20hz                           | secondmap/y_var[26][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                4 |             18 |
+|  slow_clock_20hz_1                         | firstmap/y_var[31][5]_i_1_n_0                             | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             18 |
+|  slow_clock_20hz                           | secondmap/y_var[7][5]_i_1_n_0                             | secondmap/y_var[11][5]_i_1_n_0                         |                7 |             18 |
+| ~all_keys/uut/db_clk/cnt_reg[0]            |                                                           |                                                        |                3 |             18 |
+|  slow_clock_20hz_1                         | firstmap/y_var[20][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                6 |             18 |
+|  slow_clock_20hz                           | secondmap/y_var[15][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                4 |             18 |
+|  slow_clock_20hz_1                         | firstmap/y_var[27][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                6 |             18 |
+|  init/unit_3/CLK                           | init/moving                                               |                                                        |                3 |             18 |
+|  slow_clock_20hz                           | secondmap/y_var[17][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                5 |             18 |
+|  slow_clock_20hz_1                         | firstmap/y_var[15][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                6 |             18 |
+|  slow_clock_20hz                           | secondmap/y_var[29][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                6 |             20 |
+|  slow_clock_20hz_1                         | firstmap/y_var[9][5]_i_1__0_n_0                           | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             20 |
+|  clk_IBUF_BUFG                             | sel_1/FSM_onehot_screen_sel[9]_i_1_n_0                    |                                                        |                5 |             20 |
+|  slow_clock_20hz                           | secondmap/y_var[24][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                9 |             20 |
+|  slow_clock_20hz                           | secondmap/y_var                                           | secondmap/y_var[11][5]_i_1_n_0                         |                5 |             20 |
+|  slow_clock_20hz                           | secondmap/y_var[27][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                4 |             20 |
+|  slow_clock_20hz_1                         | firstmap/y_var[24][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                6 |             22 |
+|  slow_clock_20hz                           | secondmap/y_var[18][5]_i_1_n_0                            | secondmap/y_var[11][5]_i_1_n_0                         |                9 |             22 |
+|  all_keys/CLK50MHZ                         |                                                           |                                                        |                5 |             22 |
+|  slow_clock_20hz                           | secondmap/y_var[0][5]_i_1__0_n_0                          | secondmap/y_var[11][5]_i_1_n_0                         |                5 |             22 |
+|  slow_clock_20hz_1                         | firstmap/y_var[26][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                7 |             22 |
+|  slow_clock_20hz_1                         | firstmap/y_var[17][5]_i_1__0_n_0                          | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             22 |
+|  play2/clk_divider/CLK                     | play2/note_index_rep[5]_i_2_n_0                           | play2/note_index_rep[5]_i_1_n_0                        |                4 |             24 |
+|  play1/clk_divider/CLK                     | play1/note_index_rep[5]_i_2__0_n_0                        | play1/note_index_rep[5]_i_1__0_n_0                     |                5 |             24 |
+|  slow_clock_6p25mhz_3                      |                                                           |                                                        |                7 |             26 |
+|  slow_clock_6p25mhz                        |                                                           |                                                        |                7 |             26 |
+|  clk_20/clk_20Hz                           | sel_1/timer_reg[15]_0                                     | sel_1/counter_reg[0]                                   |                4 |             28 |
+|  clk_20/clk_20Hz                           | sel_1/timer_reg[15]_0                                     | sel_1/counter_reg[0]_0                                 |                4 |             28 |
+| ~clk6p25m                                  |                                                           | pausescreen/disp/frame_counter[16]_i_1__5_n_0          |                4 |             32 |
+| ~load/unit_1/frame_counter_reg[1]          |                                                           | load/my_oled_unit/frame_counter[16]_i_1__4_n_0         |                4 |             32 |
+|  clk_1kHz_2                                |                                                           | grader_1_1/decomposer_1/perfect_reg[0]                 |                7 |             32 |
+|  slow_clock_20hz                           | sel_1/timer_reg[15]_0                                     | secondmap/y_var[11][5]_i_1_n_0                         |                4 |             32 |
+| ~slow_clock_6p25mhz_7                      |                                                           | endingscreen/my_oled_unit/frame_counter[16]_i_1__6_n_0 |                4 |             32 |
+| ~menu/divider_6p25MHz/frame_counter_reg[1] |                                                           | menu/disp/frame_counter[16]_i_1__3_n_0                 |                4 |             32 |
+| ~slow_clock_6p25mhz_5                      |                                                           | init/my_oled_unit/frame_counter[16]_i_1__2_n_0         |                4 |             32 |
+|  play1/clk_divider/CLK                     | play1/timer_counter[0]_i_2__0_n_0                         | play1/timer_counter[0]_i_1__0_n_0                      |                4 |             32 |
+| ~clk6p25m_6                                |                                                           | difmenu/disp/frame_counter[16]_i_1__7_n_0              |                4 |             32 |
+|  play2/clk_divider/CLK                     | play2/timer_counter[0]_i_2_n_0                            | play2/timer_counter[0]_i_1_n_0                         |                4 |             32 |
+|  clk_1kHz                                  |                                                           | grader_2_1/decomposer_1/perfect_reg[0]                 |               10 |             32 |
+|  slow_clock_20hz_1                         | sel_1/timer_reg[15]_0                                     | firstmap/moving_arrow[33]_i_1__0_n_0                   |                4 |             32 |
+| ~slow_clock_6p25mhz_3                      |                                                           | secondmap/my_oled_unit/frame_counter[16]_i_1_n_0       |                5 |             34 |
+| ~slow_clock_6p25mhz_4                      |                                                           | let/my_oled_unit/frame_counter[16]_i_1__8_n_0          |                5 |             34 |
+| ~slow_clock_6p25mhz                        |                                                           | firstmap/my_oled_unit/frame_counter[16]_i_1__0_n_0     |                5 |             34 |
+| ~menu/divider_6p25MHz/frame_counter_reg[1] | menu/disp/delay[0]_i_1__3_n_0                             |                                                        |                5 |             40 |
+| ~load/unit_1/frame_counter_reg[1]          | load/my_oled_unit/delay[0]_i_1__5_n_0                     |                                                        |                5 |             40 |
+| ~clk6p25m                                  | pausescreen/disp/delay[0]_i_1__6_n_0                      |                                                        |                5 |             40 |
+| ~slow_clock_6p25mhz_3                      | secondmap/my_oled_unit/delay[0]_i_1_n_0                   |                                                        |                5 |             40 |
+| ~slow_clock_6p25mhz_5                      | init/my_oled_unit/delay[0]_i_1__2_n_0                     |                                                        |                5 |             40 |
+| ~slow_clock_6p25mhz_4                      | let/my_oled_unit/delay[0]_i_1__4_n_0                      |                                                        |                5 |             40 |
+| ~clk6p25m_6                                | difmenu/disp/delay[0]_i_1__8_n_0                          |                                                        |                5 |             40 |
+| ~slow_clock_6p25mhz                        | firstmap/my_oled_unit/delay[0]_i_1__0_n_0                 |                                                        |                5 |             40 |
+| ~slow_clock_6p25mhz_7                      | endingscreen/my_oled_unit/delay[0]_i_1__7_n_0             |                                                        |                5 |             40 |
+|  all_keys/CLK50MHZ                         | all_keys/uut/keycode[0]_i_1_n_0                           |                                                        |                6 |             48 |
+|  points/unit_0/CLK                         |                                                           |                                                        |               11 |             50 |
+|  clk_IBUF_BUFG                             | grader_2_1/m_data_01                                      |                                                        |                5 |             58 |
+|  clk_IBUF_BUFG                             | grader_2_1/m_data_11                                      |                                                        |                5 |             58 |
+|  clk_IBUF_BUFG                             | grader_1_1/m_data_01                                      |                                                        |                5 |             58 |
+|  clk_IBUF_BUFG                             | grader_1_1/m_data_00                                      |                                                        |                5 |             58 |
+|  clk_IBUF_BUFG                             | grader_1_1/m_data_10                                      |                                                        |                5 |             58 |
+|  clk_IBUF_BUFG                             | grader_1_1/m_data_11                                      |                                                        |                5 |             58 |
+|  clk_IBUF_BUFG                             | grader_2_1/m_data_00                                      |                                                        |                5 |             58 |
+|  clk_IBUF_BUFG                             | grader_2_1/m_data_10                                      |                                                        |                5 |             58 |
+|  clk_1kHz_2                                |                                                           | play_time1/missed_notes_reg[30]                        |               19 |             60 |
+|  clk_1kHz                                  |                                                           | play_time2/missed_notes_reg[30]                        |               21 |             60 |
+|  slow_clock_20hz_1                         |                                                           |                                                        |               28 |             62 |
+|  slow_clock_20hz_1                         | firstmap/health_level0                                    | firstmap/moving_arrow[33]_i_1__0_n_0                   |                8 |             62 |
+|  slow_clock_20hz_1                         |                                                           | firstmap/moving_arrow[33]_i_1__0_n_0                   |               29 |             62 |
+|  slow_clock_20hz                           | secondmap/health_level0                                   | secondmap/y_var[11][5]_i_1_n_0                         |                8 |             62 |
+|  slow_clock_20hz                           |                                                           | secondmap/y_var[11][5]_i_1_n_0                         |               31 |             62 |
+|  slow_clock_20hz                           |                                                           |                                                        |               30 |             62 |
+| ~slow_clock_6p25mhz_7                      | endingscreen/my_oled_unit/FSM_onehot_state[31]_i_1__7_n_0 |                                                        |                9 |             64 |
+| ~load/unit_1/frame_counter_reg[1]          | load/my_oled_unit/FSM_onehot_state[31]_i_1__5_n_0         |                                                        |                9 |             64 |
+|  play1/clk_divider/CLK                     | play1/duration_counter[0]_i_2__0_n_0                      | play1/duration_counter[0]_i_1__0_n_0                   |                8 |             64 |
+| ~slow_clock_6p25mhz_3                      | secondmap/my_oled_unit/state                              |                                                        |               14 |             64 |
+| ~clk6p25m                                  | pausescreen/disp/FSM_onehot_state[31]_i_1__6_n_0          |                                                        |               11 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | secondmap/unit_1/COUNT[0]_i_1__0_n_0                   |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | b3/count[0]_i_1__4_n_0                                 |                8 |             64 |
+| ~slow_clock_6p25mhz_5                      | init/my_oled_unit/FSM_onehot_state[31]_i_1__3_n_0         |                                                        |                9 |             64 |
+| ~slow_clock_6p25mhz                        | firstmap/my_oled_unit/state                               |                                                        |               11 |             64 |
+|  clk_1kHz_2                                | play_time1/k_reg[31]                                      | play_time1/iter_11                                     |                8 |             64 |
+| ~slow_clock_6p25mhz_4                      | let/my_oled_unit/state                                    |                                                        |                8 |             64 |
+| ~menu/divider_6p25MHz/frame_counter_reg[1] | menu/disp/FSM_onehot_state[31]_i_1__4_n_0                 |                                                        |                6 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | secondmap/unit_2/clear                                 |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | menu/divider_6p25MHz/clear                             |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | play1/clk_divider/clear                                |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | play1/tone_gen/clear                                   |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | play2/clk_divider/clear                                |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | play2/tone_gen/clear                                   |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | grader_1_1/div1/clear                                  |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | grader_2_1/div1/clear                                  |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | init/unit_1/count[0]_i_1__7_n_0                        |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | pausescreen/divider_6p25MHz/clear                      |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | b1/count[0]_i_1__3_n_0                                 |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | b2/count[0]_i_1__5_n_0                                 |                8 |             64 |
+|  clk_1kHz                                  | play_time2/k_reg[31]                                      | play_time2/iter_11                                     |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | b4/count[0]_i_1__2_n_0                                 |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | init/unit_3/clear                                      |                8 |             64 |
+|  clk_IBUF_BUFG                             | l1/elong_counter[0]_i_2__2_n_0                            | l1/elong_counter                                       |                8 |             64 |
+|  clk_IBUF_BUFG                             | l2/elong_counter[0]_i_2__1_n_0                            | l2/elong_counter                                       |                8 |             64 |
+|  clk_IBUF_BUFG                             | l3/elong_counter[0]_i_2__0_n_0                            | l3/elong_counter                                       |                8 |             64 |
+|  clk_IBUF_BUFG                             | l4/elong_counter[0]_i_2_n_0                               | l4/elong_counter                                       |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | firstmap/unit_1/COUNT[0]_i_1__2_n_0                    |                8 |             64 |
+|  clk_IBUF_BUFG                             | grader_1_1/decomposer_1/len_00[0]_i_1_n_0                 |                                                        |                8 |             64 |
+|  clk_IBUF_BUFG                             | grader_1_1/decomposer_1/len_01[0]_i_1_n_0                 |                                                        |                8 |             64 |
+|  clk_IBUF_BUFG                             | grader_1_1/decomposer_1/len_10[0]_i_1_n_0                 |                                                        |                8 |             64 |
+|  clk_IBUF_BUFG                             | grader_1_1/decomposer_1/len_11[0]_i_1_n_0                 |                                                        |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | load/unit_3/clear                                      |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | load/unit_1/count[0]_i_1__9_n_0                        |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | endingscreen/unit_3/clear                              |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | endingscreen/unit_1/count[0]_i_1__11_n_0               |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | clk_20/clear                                           |                8 |             64 |
+|  clk_IBUF_BUFG                             | grader_2_1/decomposer_1/len_00[0]_i_1__0_n_0              |                                                        |                8 |             64 |
+|  play2/clk_divider/CLK                     | play2/sel                                                 | play2/clear                                            |                8 |             64 |
+|  clk_IBUF_BUFG                             | grader_2_1/decomposer_1/len_01[0]_i_1__0_n_0              |                                                        |                8 |             64 |
+|  clk_IBUF_BUFG                             | grader_2_1/decomposer_1/len_10[0]_i_1__0_n_0              |                                                        |                8 |             64 |
+|  clk_IBUF_BUFG                             | grader_2_1/decomposer_1/len_11[0]_i_1__0_n_0              |                                                        |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | points/unit_0/clear                                    |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | difmenu/divider_6p25MHz/clear                          |                8 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | let/unit_1/clear                                       |                8 |             64 |
+| ~clk6p25m_6                                | difmenu/disp/FSM_onehot_state[31]_i_1__8_n_0              |                                                        |                9 |             64 |
+|  clk_IBUF_BUFG                             |                                                           | firstmap/unit_2/clear                                  |                8 |             64 |
+|  clk_1kHz_2                                | play_time1/iter_10_reg_rep[0][0]                          | play_time1/iter_11                                     |               10 |             74 |
+|  clk_1kHz_2                                | grader_1_1/decomposer_1/sel[0]                            | play_time1/iter_11                                     |               10 |             74 |
+|  clk_1kHz_2                                | play_time1/sel[0]                                         | play_time1/iter_11                                     |               10 |             74 |
+|  clk_1kHz                                  | grader_2_1/decomposer_1/sel[0]                            | play_time2/iter_11                                     |               10 |             74 |
+|  clk_1kHz_2                                | play_time1/E[0]                                           | play_time1/iter_11                                     |               10 |             74 |
+|  clk_1kHz                                  | play_time2/E[0]                                           | play_time2/iter_11                                     |               10 |             74 |
+|  clk_1kHz                                  | play_time2/iter_10_reg_rep[0][0]                          | play_time2/iter_11                                     |               10 |             74 |
+|  clk_1kHz                                  | play_time2/sel[0]                                         | play_time2/iter_11                                     |               10 |             74 |
+| ~menu/divider_6p25MHz/frame_counter_reg[1] |                                                           | menu/disp/spi_word[39]_i_1__2_n_0                      |               22 |             90 |
+| ~slow_clock_6p25mhz_7                      |                                                           | endingscreen/my_oled_unit/spi_word[39]_i_1__6_n_0      |               18 |             90 |
+| ~slow_clock_6p25mhz_5                      |                                                           | init/my_oled_unit/spi_word[39]_i_1__1_n_0              |               19 |             90 |
+| ~slow_clock_6p25mhz_4                      |                                                           | let/my_oled_unit/spi_word[39]_i_1__3_n_0               |               15 |             90 |
+| ~slow_clock_6p25mhz_3                      |                                                           | secondmap/my_oled_unit/spi_word[39]_i_1_n_0            |               20 |             90 |
+| ~load/unit_1/frame_counter_reg[1]          |                                                           | load/my_oled_unit/spi_word[39]_i_1__4_n_0              |               19 |             90 |
+| ~clk6p25m_6                                |                                                           | difmenu/disp/spi_word[39]_i_1__7_n_0                   |               21 |             90 |
+| ~clk6p25m                                  |                                                           | pausescreen/disp/spi_word[39]_i_1__5_n_0               |               17 |             90 |
+| ~slow_clock_6p25mhz                        |                                                           | firstmap/my_oled_unit/spi_word[39]_i_1__0_n_0          |               21 |             90 |
+|  clk_IBUF_BUFG                             |                                                           |                                                        |               51 |            134 |
++--------------------------------------------+-----------------------------------------------------------+--------------------------------------------------------+------------------+----------------+
+
+
