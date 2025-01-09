@@ -1,0 +1,130 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jan  9 06:07:48 2025
+# Process ID: 13044
+# Current directory: C:/Users/43lan/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1148
+# Log file: C:/Users/43lan/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/43lan/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project beatstream_project {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project} -part xc7a35tcpg236-1
+file mkdir C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new
+file mkdir C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new
+file mkdir {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new}
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new/basys3_constraints.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/constrs_1/new/basys3_constraints.xdc}}
+file mkdir C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new
+file mkdir C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new
+file mkdir C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new
+file mkdir C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new
+file mkdir C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new
+file mkdir C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new
+file mkdir {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new}
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/top_module.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/key_status.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/key_status.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/PS2Receiver.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/PS2Receiver.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debouncer.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debouncer.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/keypress.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/short_press.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/short_press.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/clock_divider.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/clock_divider.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/play_timer.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/play_timer.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/note_grader.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/note_grader.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/decomposer.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/decomposer.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/elongate.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/elongate.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/startup_screen.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/startup_screen.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/flexible_clock.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/flexible_clock.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Oled_Display.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Oled_Display.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map2.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/char.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/survival_bar.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/survival_bar.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/menu_screen.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/menu_screen.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/difficulty_menu.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/difficulty_menu.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Point_system_display.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/Point_system_display.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/end_screen.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/end_screen.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/pause.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/pause.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/map1.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/loading_screen.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/loading_screen.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/display_letters_to_screen.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/screen_selector.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/screen_selector.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/music_play.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/single_note.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/single_note.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debounce.v} w ]
+add_files {{C:/Users/43lan/Downloads/S1_20_KIM GYURIM_SARAVANAN SWETHA_YOSHIZAKI EICHI_ZHONG SHU_Improvements_Archive.xpr/beatstream_project/beatstream_project.srcs/sources_1/new/debounce.v}}
+update_compile_order -fileset sources_1
+archive_project C:/Users/43lan/Downloads/beatstream_project.xpr/beatstream_project.xpr.zip -temp_dir C:/Users/43lan/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-13044-lance-hp -force -include_local_ip_cache -include_config_settings
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+archive_project C:/Users/43lan/Downloads/beatstream_project.xpr/beatstream_project.xpr.zip -temp_dir C:/Users/43lan/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-13044-lance-hp -force -include_local_ip_cache -include_config_settings
